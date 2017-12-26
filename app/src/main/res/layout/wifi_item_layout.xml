@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/wifi_name"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:lines="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:id="@+id/wifi_password"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c5c5c5"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
